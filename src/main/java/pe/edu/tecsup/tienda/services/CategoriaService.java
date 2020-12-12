@@ -7,6 +7,6 @@ import pe.edu.tecsup.tienda.entities.Categoria;
 public interface CategoriaService {
 
 	public List<Categoria> findAll();
-	
+	 
 }
 

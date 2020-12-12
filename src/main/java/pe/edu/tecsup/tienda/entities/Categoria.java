@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-// JPA
+// JPA 
 @Entity
 @Table(name = "categorias")
 public class Categoria {

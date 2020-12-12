@@ -1,6 +1,6 @@
 package pe.edu.tecsup.tienda.entities;
 
-import java.sql.Date;
+import java.util.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -11,7 +11,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 import org.springframework.format.annotation.DateTimeFormat;
-
+ 
 @Entity
 @Table(name = "productos")
 public class Producto {
